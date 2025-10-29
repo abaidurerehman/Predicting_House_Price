@@ -1,3 +1,14 @@
+---
+title: House Price Prediction
+emoji: 🏠
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: "1.38.0"
+app_file: app.py
+pinned: false
+---
+
 # Predicting House Prices using Machine Learning
 
 ## Project Overview
@@ -21,44 +32,3 @@ This project aims to predict house prices based on various features such as loca
 ```sh
 git clone https://github.com/abaidurerehman/Predicting_House_Price.git
 cd Predicting_House_Price
-```
-
-### Setup Backend (Flask API)
-```sh
-cd backend
-pip install -r requirements.txt
-python app.py
-```
-
-### Setup Frontend (React)
-```sh
-cd frontend
-npm install
-npm start
-```
-
-## Usage
-1. Open the frontend in your browser (`http://localhost:3000`).
-2. Enter property details such as size, number of rooms, and location.
-3. Click **Predict** to get an estimated house price.
-4. The prediction results will be displayed in real time.
-
-## API Endpoints
-| Method | Endpoint      | Description                         |
-|--------|-------------|-------------------------------------|
-| POST   | `/predict`  | Takes house details and returns predicted price |
-
-## Deployment
-- Flask API can be deployed on **Heroku/AWS/GCP**.
-- React frontend can be deployed on **Vercel/Netlify**.
-
-## License
-This project is open-source and available under the MIT License.
-
-## Contributors
-- ABAIDUR-E-REHMAN(Lead Developer)
-
-
-## Contact
-For issues or contributions, open a pull request or contact at meharmehar1065@gmail.com.
-
